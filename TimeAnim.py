@@ -33,7 +33,7 @@ def ArcUpdate():
 
     CreateMinArc = can.create_arc((80, 80, 420, 420), start=-270, extent=-(Curr_Min * 6), style='arc',width=5,outline="maroon")
 
-    CreateHeArc = can.create_arc((100, 100, 400, 400), start=-270, extent=-(Curr_Hr * 6), style='arc',width=3,outline="white")
+    CreateHeArc = can.create_arc((100, 100, 400, 400), start=-270, extent=-(Curr_Hr * 15), style='arc',width=3,outline="white")
 
     can.pack()
     # print(Curr_Sec)
